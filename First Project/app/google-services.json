@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1005597188578",
+    "project_id": "simuladorpartidasdio-santander",
+    "storage_bucket": "simuladorpartidasdio-santander.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005597188578:android:94e7cb7c0c7692cfd119bb",
+        "android_client_info": {
+          "package_name": "me.dio.matchsimulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005597188578-invqdb8escr6nlal6l0p9k3pibe5u6kb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwn4UfW4E-0xbrtdT1sjhrZhzKcE4xQsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005597188578-invqdb8escr6nlal6l0p9k3pibe5u6kb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
