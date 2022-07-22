@@ -12,7 +12,7 @@ Imprima o número lido e a quantidade mínima de cada cédula necessária em lí
 
 | Amostra de entrada | Amostra de saída                                             |
 | ------------------ | ------------------------------------------------------------ |
-| 576                | 576<br/>5 nota(s) de R$ 100,00<br/>1 nota(s) de R$ 50,00<br/>1 nota(s) de R$ 20,00<br/>0 nota(s) de R$ 10,00<br/>1 nota(s) de R$ 5,00<br/>0 nota(s) de R$ 2,00<br/>1 nota(s) de R$ 1,00 |
+| **576**            | **576<br/>5 nota(s) de R$ 100,00<br/>1 nota(s) de R$ 50,00<br/>1 nota(s) de R$ 20,00<br/>0 nota(s) de R$ 10,00<br/>1 nota(s) de R$ 5,00<br/>0 nota(s) de R$ 2,00<br/>1 nota(s) de R$ 1,00** |
 
 | 11257 | 11257<br/>112 nota(s) de R$ 100,00<br/>1 nota(s) de R$ 50,00<br/>0 nota(s) de R$ 20,00<br/>0 nota(s) de R$ 10,00<br/>1 nota(s) de R$ 5,00<br/>1 nota(s) de R$ 2,00<br/>0 nota(s) de R$ 1,00 |
 | ----- | ------------------------------------------------------------ |
@@ -22,7 +22,9 @@ Imprima o número lido e a quantidade mínima de cada cédula necessária em lí
 | ---- | ------------------------------------------------------------ |
 |      |                                                              |
 
-_________________________________________________________________________________________________________
+## Solução no link abaixo :link: :point_down:
+
+* [Solução em Kotlin](https://github.com/CaioHangai/SantanderBootcampMobileDeveloper/blob/main/Desafios%20iniciais/3%20Contagem%20de%20Celulas/ContagemDeCelulas/src/main/kotlin/Program.kt)
 
 # Banknotes
 
@@ -38,7 +40,7 @@ Print the read number and the minimum quantity of each necessary banknotes in Po
 
 | Input Sample | Output Sample                                                |
 | ------------ | ------------------------------------------------------------ |
-| 576          | 576<br/>5 nota(s) de R$ 100,00<br/>1 nota(s) de R$ 50,00<br/>1 nota(s) de R$ 20,00<br/>0 nota(s) de R$ 10,00<br/>1 nota(s) de R$ 5,00<br/>0 nota(s) de R$ 2,00<br/>1 nota(s) de R$ 1,00 |
+| **576**      | **576<br/>5 nota(s) de R$ 100,00<br/>1 nota(s) de R$ 50,00<br/>1 nota(s) de R$ 20,00<br/>0 nota(s) de R$ 10,00<br/>1 nota(s) de R$ 5,00<br/>0 nota(s) de R$ 2,00<br/>1 nota(s) de R$ 1,00** |
 
 | 11257 | 11257<br/>112 nota(s) de R$ 100,00<br/>1 nota(s) de R$ 50,00<br/>0 nota(s) de R$ 20,00<br/>0 nota(s) de R$ 10,00<br/>1 nota(s) de R$ 5,00<br/>1 nota(s) de R$ 2,00<br/>0 nota(s) de R$ 1,00 |
 | ----- | ------------------------------------------------------------ |
@@ -47,3 +49,7 @@ Print the read number and the minimum quantity of each necessary banknotes in Po
 | 503  | 503<br/>5 nota(s) de R$ 100,00<br/>0 nota(s) de R$ 50,00<br/>0 nota(s) de R$ 20,00<br/>0 nota(s) de R$ 10,00<br/>0 nota(s) de R$ 5,00<br/>1 nota(s) de R$ 2,00<br/>1 nota(s) de R$ 1,00 |
 | ---- | ------------------------------------------------------------ |
 |      |                                                              |
+
+## Solution in the link below:link: :point_down:
+
+* [Solution in Kotlin](https://github.com/CaioHangai/SantanderBootcampMobileDeveloper/blob/main/Desafios%20iniciais/3%20Contagem%20de%20Celulas/ContagemDeCelulas/src/main/kotlin/Program.kt)
