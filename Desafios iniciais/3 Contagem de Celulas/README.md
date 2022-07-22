@@ -26,6 +26,10 @@ Imprima o número lido e a quantidade mínima de cada cédula necessária em lí
 
 * [Solução em Kotlin](https://github.com/CaioHangai/SantanderBootcampMobileDeveloper/blob/main/Desafios%20iniciais/3%20Contagem%20de%20Celulas/ContagemDeCelulas/src/main/kotlin/Program.kt)
 
+  ______________________________
+
+  
+
 # Banknotes
 
 In this problem you have to read an integer value and calculate the smallest possible number of banknotes in which the value may be decomposed. The possible banknotes are 100, 50, 20, 10, 5, 2 e 1. Print the read value and the list of banknotes.
