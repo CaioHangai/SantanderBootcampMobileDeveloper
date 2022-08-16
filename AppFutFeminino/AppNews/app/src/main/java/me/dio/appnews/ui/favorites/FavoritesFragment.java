@@ -23,14 +23,10 @@ public class FavoritesFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        FavoritesViewModel favoritesViewModel =
-                new ViewModelProvider(this).get(FavoritesViewModel.class);
+        FavoritesViewModel favoritesViewModel = new ViewModelProvider(this).get(FavoritesViewModel.class);
 
         binding = FragmentFavoritesBinding.inflate(inflater, container, false);
-
-
         loadFavoriteNews();
-
         return binding.getRoot();
     }
 
@@ -45,9 +41,9 @@ public class FavoritesFragment extends Fragment {
                 activity.getDb().newsDao().save(updatedNews);
                 loadFavoriteNews();
             }));
+
         }
     }
-
     @Override
     public void onDestroyView() {
         super.onDestroyView();

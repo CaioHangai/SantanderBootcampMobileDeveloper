@@ -21,13 +21,10 @@ public class NewsFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        NewsViewModel newsViewModel =
-                new ViewModelProvider(this).get(NewsViewModel.class);
+        NewsViewModel newsViewModel = new ViewModelProvider(this).get(NewsViewModel.class);
 
         binding = FragmentNewsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
-
 
         binding.rvNews.setLayoutManager(new LinearLayoutManager(getContext()));
         newsViewModel.getNews().observe(getViewLifecycleOwner(), news -> {
@@ -40,6 +37,24 @@ public class NewsFragment extends Fragment {
             }));
 
         });
+        newsViewModel.getState().observe(getViewLifecycleOwner(), state -> {
+
+            switch (state) {
+
+                case DOING:
+                    //TODO iniciar swipe rrefres layouty.
+                    break;
+
+                case DONE:
+                    //TODO finalizar swipe rrefres layouty.
+                    break;
+
+                case ERROR:
+                    //TODO finalizar swipe rrefres layouty e mostrar erro.
+
+            }
+        });
+
         return root;
     }
 
